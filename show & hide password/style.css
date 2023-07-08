@@ -1,0 +1,38 @@
+*{
+
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#contaner{
+
+
+
+position: absolute;
+top: 40%;
+left: 35%;
+
+}
+#btn{
+
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+#btn:hover{
+    background: rgb(219, 223, 8);
+    transition: .3s;
+}
+#page{
+
+  height: 100vh;  1
+  width: 100vh;
+
+}
