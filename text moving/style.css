@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Anton', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    background: rgb(46, 46, 46);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+h1 span{
+    color: #2ad1d1;
+    position: relative;
+}
+h1 span::before{
+    content: " ";
+    right: -8px;
+    top: -10%;
+    position: absolute;
+    height: 32px;
+    width: 2px;
+    background:#2ad1d1 ;
+    transform: translate(-45%);
+    animation:  blink 0.7s infinite ;
+}
+
+@keyframes blink{
+    50%{
+        opacity: 0;
+    }
+
+}
